@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Normalize styles y navigators -->
+    <link rel="stylesheet" href="./css/normalize.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+
+    <title>Sidebar</title>
+</head>
+
+<body>
+    <div class="card">
+        <div class="card-header">
+            <div class="card-header__user">
+                <img src="./img/logo.png" alt="garfield-gitcode-logo">
+            </div>
+            <h3>Garfield Gitcode <p>@garfield_gitcode</p>
+            </h3>
+        </div>
+
+        <div class="card-body">
+            <div class="sidebar">
+                <div class="sidebar-header">
+                    <input type="checkbox" id="sidebar-check">
+                    <label for="sidebar-check" class="sidebar-menu">
+                        <div class="menu-icon"></div>
+                    </label>
+                </div>
+                <div class="sidebar-body">
+                    <ul class="sidebar-list">
+                        <li>
+                            <a href="">
+                                <i class="fa-solid fa-house"></i>
+                                <div class="link-name">Dashboard</div>
+                            </a>
+                            <span class="link-tooltip">Dashboard</span>
+                        </li>
+                        <li>
+                            <a href="">
+                                <i class="fa-solid fa-chart-line"></i>
+                                <div class="link-name">Analytics</div>
+                            </a>
+                            <span class="link-tooltip">Analytics</span>
+                        </li>
+                        <li>
+                            <a href="">
+                                <i class="fa-solid fa-folder"></i>
+                                <div class="link-name">Files</div>
+                            </a>
+                            <span class="link-tooltip">Files</span>
+                        </li>
+                        <li>
+                            <a href="">
+                                <i class="fa-solid fa-heart"></i>
+                                <div class="link-name">Favorites</div>
+                            </a>
+                            <span class="link-tooltip">Favorites</span>
+                        </li>
+                        <li>
+                            <a href="">
+                                <i class="fa-solid fa-circle-info"></i>
+                                <div class="link-name">Help</div>
+                            </a>
+                            <span class="link-tooltip">Help</span>
+                        </li>
+                        <li>
+                            <a href="">
+                                <i class="fa-solid fa-gear"></i>
+                                <div class="link-name">Configuration</div>
+                            </a>
+                            <span class="link-tooltip">Configuration</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="sidebar-footer">
+                    <div class="sidebar-user">
+                        <div class="sidebar-user-options">
+                            <img src="./img/logo-white.png" alt="">
+                        </div>
+                        <h3>Garfield Gitcode<p>Web developer</p></h3>
+                        <div class="sidebar-user-logout">
+                            <i class="fa-solid fa-right-from-bracket"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="./app.js"></script>
+</body>
+
+</html>
